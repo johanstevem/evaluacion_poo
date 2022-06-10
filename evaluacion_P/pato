@@ -1,0 +1,26 @@
+using System;
+
+namespace program
+{
+  class pato:ave
+  {
+   
+    public pato (string nombre){
+        nombre_pato=nombre;
+    }
+public override void getNombre()
+{
+    Console.WriteLine("el nombre del pato es"+nombre_pato);
+}
+public override void swim()
+{
+    Console.WriteLine("el pato nada");
+}
+public override void fly()
+{
+    Console.WriteLine("el pato vuela");
+}
+private string nombre_pato;
+  }
+
+}
